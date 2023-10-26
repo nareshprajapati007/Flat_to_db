@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Flat_to_db", "Flat_to_db.dtproj", "{3033D818-36F2-4BDB-8CE6-FA0F5FE098B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3033D818-36F2-4BDB-8CE6-FA0F5FE098B0}.Development|Default.ActiveCfg = Development
+		{3033D818-36F2-4BDB-8CE6-FA0F5FE098B0}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC999960-1449-4DC3-B194-01E8E082CB4E}
+	EndGlobalSection
+EndGlobal

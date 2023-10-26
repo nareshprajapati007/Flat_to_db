@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SampleCurrencyData Flat File Connection Manager"
+  DTS:DTSID="{25ED1218-7762-4264-86FA-C5E84FB56CC9}"
+  DTS:Description="SampleCurrencyData Flat File Connection Manager"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="RaggedRight"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:RowDelimiter="_x000D__x000A_"
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\Source_data\SampleCurrencyData.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="10"
+          DTS:MaximumWidth="10"
+          DTS:DataType="129"
+          DTS:ObjectName="AverageRate"
+          DTS:DTSID="{135017A9-97B7-42BE-A180-581B088BE94C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="4"
+          DTS:MaximumWidth="4"
+          DTS:DataType="129"
+          DTS:ObjectName="CurrencyKey"
+          DTS:DTSID="{1BE7DEF7-5A01-4FAF-A067-CD8AEEB4CE44}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="6"
+          DTS:MaximumWidth="6"
+          DTS:DataType="129"
+          DTS:ObjectName="DateKey"
+          DTS:DTSID="{207A503C-5E78-4269-8BC4-9949319D6FCC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="EndOfDateRate"
+          DTS:DTSID="{7C68A388-722A-4E22-A42D-FB750B784562}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
